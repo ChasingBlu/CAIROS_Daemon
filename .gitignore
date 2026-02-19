@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Build artifacts
+build/
+*.obj
+*.o
+*.lib
+*.dll
+*.exe
+*.pdb
+
+# Model weights
+models/*
+!models/README.md
+
+# Outputs / logs
+runs/
+outputs/
+logs/
+*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
